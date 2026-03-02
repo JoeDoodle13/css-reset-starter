@@ -130,20 +130,35 @@ main > section{
 /* Styles for h1 */
 h1 {
     display: block;
-    margin: 1.5rem auto;
+    margin: 21.440px auto;
     font-weight: 900;
     font-size: 2rem;
+    line-height: 1.35;
+}
+
+/* Styles for h2 */
+h2 {
+    font-size: 1.5rem;
+    margin: 19.920px auto;
+}
+
+h3 {
+    font-size: 1.17rem;
+    margin: 18.720px auto;
 }
 
 /* Styles for the h2 & h3 tags */
 h2, h3{
     text-align: center;
+    font-weight: bold;
+    line-height: 1.35;
 }
 
 /* Paragraph Styles */
 p{
     max-width: 65ch;
     margin: 0.5rem auto;
+    line-height: 1.35;
 }
 
 /* Link Styles */
@@ -203,7 +218,8 @@ fieldset{
     grid-template-columns: 0.25fr 6fr 0.25fr 6fr;
     gap: 1rem;
     margin: 1rem 0;
-    border-color: var(--red);
+    border: 2px groove var(--red);
+    padding: 0.5rem 12px;
 }
 
 /* Code for Custom Radios - Compare to Your zyBook, I added additional code to make these match my form styles */
