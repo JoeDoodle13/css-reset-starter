@@ -3,6 +3,9 @@
    License: none (public domain)
 */
 
+
+/* Name : Joe Lerche */
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -46,17 +49,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -112,6 +104,7 @@ nav ul{
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
     padding: 0;
+    margin: 1rem auto;
 }
 
 nav a{
@@ -132,6 +125,14 @@ nav a:hover{
 /* Styles for the Sections in the Main */
 main > section{
     padding: 1rem 0;
+}
+
+/* Styles for h1 */
+h1 {
+    display: block;
+    margin: 1.5rem auto;
+    font-weight: 900;
+    font-size: 2rem;
 }
 
 /* Styles for the h2 & h3 tags */
