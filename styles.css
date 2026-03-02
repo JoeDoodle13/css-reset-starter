@@ -291,6 +291,12 @@ textarea{
     color: var(--dk-gray);
 }
 
+/* Figure */
+figure {
+    margin: 16px 40px;
+}
+
+
 /* Code Styles */
 code{
     font-family: var(--code-fonts);
